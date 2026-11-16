@@ -17,7 +17,7 @@ const PRODUCTS = [
     category: "Necklaces",
     price: 399,
     tag: "Bestseller",
-    image: "assets/bar-necklace.jpg",
+    image: "./bar-necklace.jpg",
     description: "Dainty gold-toned chain with a sleek rectangular pendant — made for daily layering.",
     specs: ["18k gold-toned alloy", "16 in + 2 in extender", "Lightweight & skin-friendly"]
   },
@@ -27,7 +27,7 @@ const PRODUCTS = [
     category: "Necklaces",
     price: 449,
     tag: "Signature",
-    image: "assets/heart-necklace.jpg",
+    image: "./heart-necklace.jpg",
     description: "Glossy black heart pendant framed in a delicate gold trim for effortless contrast.",
     specs: ["Enamel & gold-toned finish", "18 in fine link chain", "Tarnish-resistant coat"]
   },
@@ -37,7 +37,7 @@ const PRODUCTS = [
     category: "Bracelets",
     price: 499,
     tag: "New Drop",
-    image: "assets/butterfly-bangle.jpg",
+    image: "./butterfly-bangle.jpg",
     description: "Sleek hinged gold-toned cuff featuring a sculpted black enamel butterfly motif.",
     specs: ["Easy-clasp hinge lock", "58 mm inner diameter", "Water-resistant finish"]
   },
@@ -47,7 +47,7 @@ const PRODUCTS = [
     category: "Rings",
     price: 349,
     tag: "Stackable",
-    image: "assets/star-rings.jpg",
+    image: "./star-rings.jpg",
     description: "Minimal gold-toned stacking rings accented with star motifs and subtle white stones.",
     specs: ["Set of 3 stackable bands", "Adjustable comfort fit", "Nickel-free finish"]
   },
@@ -57,7 +57,7 @@ const PRODUCTS = [
     category: "Earrings",
     price: 379,
     tag: "Gift Pick",
-    image: "assets/studs-set.jpg",
+    image: "./studs-set.jpg",
     description: "Curated NIORA earring card combining pearl studs, gold bow studs, and crystal drops.",
     specs: ["3-pair curated set", "Hypoallergenic posts", "Arrives on NIORA gift card"]
   },
@@ -67,11 +67,13 @@ const PRODUCTS = [
     category: "Earrings",
     price: 429,
     tag: "Oxidised",
-    image: "assets/oxidised-hoops.jpg",
+    image: "./oxidised-hoops.jpg",
     description: "Artisanal oxidised silver-toned hoops finished with faceted blue crystal teardrops.",
     specs: ["Oxidised silver tone", "Faceted glass crystal", "Secure click-top clasp"]
   }
 ];
+
+
 
 const STORAGE_KEYS = {
   cart: "niora_cart_v1",
